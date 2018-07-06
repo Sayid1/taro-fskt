@@ -1,0 +1,27 @@
+.cus-swiper {
+  padding: 24px 50px;
+  box-sizing: border-box;
+  & .swiper{
+    border-radius: 20px;
+    box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12)!important;
+    & .swiper-item {
+      border-radius: 20px;
+    }
+    & .banner-img {
+      border-radius: 20px;
+    }
+  }
+  & .remind {
+    display:flex;
+    justify-content:space-around;
+    margin-top:28px;
+    font-size:28px;
+    color:#86603e;
+    & .img {
+      width:32px;
+      height:32px;
+      vertical-align:middle;
+
+    }
+  }
+}

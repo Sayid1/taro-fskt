@@ -1,0 +1,20 @@
+.tabs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 28px;
+  border-bottom: 1px solid #ccc;
+  & > .tab {
+    flex: 1;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    &.active {
+      border-bottom: 4px solid #3FB67F;
+      color: #3fb67f;
+    }
+    & .tab-text {
+      padding: 12px 24px;
+      display: inline-block;
+    }
+  }
+}
